@@ -1,0 +1,27 @@
+Task 4: Access Your Local Database via Microsoft SQL Server Management Studio
+
+In this task, you will start Microsoft SQL Server Management Studio and connect to the SQL Server database that is running locally on the EC2 instance.
+
+In the remote session:
+Choose the Windows start  icon
+Search for SQL Server Management Studio by typing 
+ssms
+In the search results, choose Microsoft SQL Server Management Studio 17
+SQL Server Management Studio will take a few minutes to launch.
+
+After SQL Server Management Studio launches, configure:
+Server name:
+Select <Browse for more...>
+Under Database Engine, select the engine that you see
+Choose OK
+Choose Connect
+This connects you to the local instance of SQL Server on your instance using Windows Authentication.
+
+In Object Explorer:
+Expand Databases
+Expand AdventureWorks
+Expand Tables
+
+A sample AdventureWorks database has been loaded onto the local database as part of the lab setup. Examine the tables and the data.
+
+In the next task, you will copy this data to the Amazon RDS database.
