@@ -1,0 +1,22 @@
+In the AWS Management Console, on the Services menu, choose RDS.
+
+In the left navigation pane, choose Databases.
+
+Choose Create database
+
+In the Engine options section, for Engine type, select  Microsoft SQL Server.
+
+A selection of database engines will be presented. Amazon RDS supports many different databases and multiple versions of each database. You will be using SQL Server Express Edition. This edition has the License Included. This means that the cost of the SQL Server database license is included in the hourly fee for the Amazon RDS database. It is also possible to Bring Your Own License (BYOL) to Amazon RDS.
+
+my-rds
+student
+Pass.123
+Pass.123
+
+
+In the Connectivity section, configure:
+Virtual Private Cloud (VPC): Lab VPC
+
+Here you will be able to monitor the progress of your DB Instance. The RDS instance will take about 20 minutes to create. However, as part of the lab setup, a similar RDS instance ("Lab") was automatically provisioned to expedite the lab. The rest of the steps will use this pre-created instance.
+
+ Please continue to the next task. There is no need to wait for your database to launch.
